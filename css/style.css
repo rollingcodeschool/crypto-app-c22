@@ -17,26 +17,45 @@ main {
   font-style: normal;
 }
 
-.carousel-control-prev, .carousel-control-next{
+.carousel-control-prev,
+.carousel-control-next {
   filter: invert(0);
 }
 
+.img-telefono {
+  width: 75%;
+}
+
+.bg-error-404 {
+  background-color: #040205;
+}
+
 @media (width >= 768px) {
-   .img-carousel{
+  .img-carousel {
     height: 400px;
     object-fit: cover;
-   } 
+  }
+  .img-error-404 {
+    width: 65% !important;
+  }
+  .img-telefono {
+    width: 100%;
+  }
 }
 
 @media (width >= 992px) {
-   .img-carousel{
+  .img-carousel {
     height: 500px;
-   } 
+  }
 
-   .img-monedas{
-    object-position: 50% 70% ;
-   }
+  .img-monedas {
+    object-position: 50% 70%;
+  }
+
+  .img-error-404 {
+    width: 30% !important;
+  }
+  .img-telefono {
+    width: 75%;
+  }
 }
-
-
-
